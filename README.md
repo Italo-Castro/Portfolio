@@ -2,6 +2,4 @@
 
 ####  Neste protifolio, esta contido minhas experiencias profissionais, academicas e pessoias, e algumas skills.
 
-
-
-![pp](D:\Projects\Portfolio\Portfolio\img\pp.jpg)
+https://media-exp1.licdn.com/dms/image/C5603AQHwVN3vF7DVkg/profile-displayphoto-shrink_800_800/0/1627487931257?e=2147483647&v=beta&t=T1ALaB5_-vV5gzhuzIIdsvGhB3Q0BeM0lUh-7kJBV5Q
