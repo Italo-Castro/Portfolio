@@ -1,0 +1,31 @@
+.body {
+    background-color: red;
+}
+.textoPrincipal, .tituloPrincipal{
+    text-align: center;
+    margin-top: 15px;
+   
+} 
+
+.imagemPrincipal {
+    text-align: center;
+}
+
+#baseConhecimento{
+    text-align: center;
+} 
+
+#sectionExperienciaProfissional {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.teste {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+.paragrafo {
+   margin: 15px 50px 0px 10px;
+    text-align: center;
+}
