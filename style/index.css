@@ -13,19 +13,36 @@
 
 #baseConhecimento{
     text-align: center;
+    margin-top: 25px;
 } 
 
 #sectionExperienciaProfissional {
     text-align: center;
     margin-top: 50px;
+   
 }
 
-.teste {
+.cardExperiencias {
     display: flex;
     justify-content: center;
     margin-top: 35px;
 }
 .paragrafo {
-   margin: 15px 50px 0px 10px;
+    margin: 15px 50px 0px 10px;
     text-align: center;
+}
+
+.iconsProfileSocail {
+    font-size:35px;
+    display: flex;
+    justify-content: flex-end;
+    margin: 25px;
+}
+
+.iconGit {
+    margin-right: 15px;
+}
+
+.logoEdsys {
+    margin-right: 40px;
 }
