@@ -24,7 +24,7 @@
 
 .cardExperiencias {
     display: flex;
-    justify-content: center;
+   /* justify-content: space-around;*/
     margin-top: 35px;
 }
 .paragrafo {
@@ -50,3 +50,8 @@
 .tituloSoftSkil {
     margin-left: 135px;
 }
+
+.bg-success {
+    
+    background-color: rgba(#70D6F5);
+  }
