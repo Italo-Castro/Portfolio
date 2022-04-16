@@ -1,0 +1,29 @@
+.coursesAndCerticates   {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.coursesAndCerticates  h5:hover {
+    text-align: center;
+   
+}
+
+.paginattion {
+    display: flex;
+    bottom: 0;
+    position: fixed;
+    width: 90%; 
+    justify-content: center;
+}  
+ 
+.textoPrincipal{
+    margin-top: 25px;
+    text-align: center;
+    font-family: Copperplate;
+} 
+
+
+.card-body a{
+  display: block;
+} 
