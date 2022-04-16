@@ -26,6 +26,7 @@
     display: flex;
    /* justify-content: space-around;*/
     margin-top: 35px;
+    text-align: center;
 }
 .paragrafo {
     margin: 15px 50px 0px 10px;
@@ -45,13 +46,30 @@
 
 .logoEdsys {
     margin-right: 40px;
+    
 }
+
+.logoEdsys :hover{
+    text-align: center;
+}
+
 
 .tituloSoftSkil {
     margin-left: 135px;
 }
 
-.bg-success {
+
+/*Sobreescrevendo classe bootstrap*/ 
+.list-group li{
+    opacity: 0.8;
+    transform: scale(1);
+}
+
+
+.list-group li:hover{
+    margin-top: 10px;
+    margin-bottom: 10px; 
+    opacity: 1.0;
+    text-shadow: 15px black;
     
-    background-color: rgba(#70D6F5);
-  }
+}

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!--Branch cursos e certificados -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,9 +14,10 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="js/jsIndex.js"></script>
-</head>
+</head> 
+
 <body>
-  <div class="bg-success p-2 text-dark bg-opacity-25">
+  <div class="bg-info p-2 text-dark bg-opacity-25">
     <nav class="navbar navbar-expand-lg navbar-light bg-light  bg-success p-2" style="--bs-bg-opacity: .5;">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"></a>
@@ -42,7 +44,7 @@
                   Mais ...
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li><a class="dropdown-item" href="#cursosECertificados">Cursos e certificados</a></li>
+                <li><a class="dropdown-item" href="coursesAndCerticates.html">Cursos e certificados</a></li>
                   <li><a class="dropdown-item"  data-bs-toggle="modal" data-bs-target="#exampleModalEmail" href="#">Enviar e-mail</a></li>
                   <li><a class="dropdown-item link-success"  data-bs-toggle="modal" data-bs-target="#exampleModalWtsApp" href="#">Enviar mensagem WhatsApp</a></li>
                 </ul>
@@ -58,8 +60,8 @@
       </div>
      <div class="principal">
          <div class="tituloPrincipal">
-           <h1> Italo Cesar Castro</h1>
-        </div>
+           <h2 class="display-2"> Italo Cesar Castro</h2>
+    </div>
 
  
 <!-- Modal WtsApp -->
@@ -82,7 +84,7 @@
         </div>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal"></button>
         <button type="button" class="btn btn-primary" onclick="enviarMensagemWtsApp()">Enviar Mensagem</button>
       </div>
     </div>
@@ -118,26 +120,27 @@
 
 <!--Cnavas soft skills-->
 <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
-  <div class="offcanvas-header">
-    <h5 class="offcanvas-title tituloSoftSkil" id="offcanvasWithBothOptionsLabel">Soft Skills</h5>
+  <div class="offcanvas-header bg-info p-2 text-dark bg-opacity-25">
+    <h5 class="offcanvas-title tituloSoftSkil " id="offcanvasWithBothOptionsLabel">Soft Skills</h5>
     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
   </div>
-  <div class="offcanvas-body">
+  <div class="offcanvas-body bg-info p-2 text-dark bg-opacity-25">
     <p>
-      <ul class="list-group">
-        <li class="list-group-item">Boa comunicação.</li>
-        <li class="list-group-item">Facilidade em aprender.</li>
-        <li class="list-group-item">Vontade em ajudar.</li>
+      <ul class="list-group"> 
+        <li class="list-group-item bg-light p-2 text-dark bg-opacity-25 accordion-header">Boa comunicação.</li>
+        <li class="list-group-item bg-light p-2 text-dark bg-opacity-25 accordion-header">Facilidade em aprender.</li>
+        <li class="list-group-item bg-light p-2 text-dark bg-opacity-25 accordion-header">Vontade em ajudar.</li>
+        <li class="list-group-item bg-light p-2 text-dark bg-opacity-25 accordion-header">Proatividade.</li>
+        <li class="list-group-item bg-light p-2 text-dark bg-opacity-25 accordion-header">Flexibilidade.</li>
+        <li class="list-group-item bg-light p-2 text-align bg-opacity-25 accordion-header ">Empatia.</li>
       </ul>
-  </div>
-</div>
-
-
+  </div> 
+</div> 
         <div class="imagemPrincipal">
-          <img  src="img/perfil.jpg" class="img-fluid" alt="Italo Cesar Castro" style="width: 500px; height: 500px;>
+          <img  src="img/perfil.jpg" class="img-fluid" alt="Italo Cesar Castro" style="width: 500px; height: 500px;">
          
         </div> 
-        <div class="shadow-lg p-3 mb-5 bg-body rounded"></div>
+      
         <div class="textoPrincipal">
          <p>Graduando em Ciencias da computação
          <br>
@@ -149,19 +152,17 @@
     </div>
 
 
-     </div>
-    
      <div id ="baseConhecimento" class="baseConhecimento">
-     <h1>Sólidos conhecimentos em</h1>
+     <h1 class="accordion-header">Sólidos conhecimentos em</h1>
      <div class="accordion" id="accordionExample">
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingOne">
-            <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"  aria-controls="collapseOne">
-              Java
+            <button class="accordion-button bg-info p-2 text-dark bg-opacity-25" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"  aria-controls="collapseOne">
+              <h5 class="accordion-header">Java</h5>
             </button>
-          </h2>
+          </h2> 
           <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-            <div class="accordion-body lead">
+            <div class="accordion-body lead bg-info p-2 text-dark bg-opacity-25">
                 <p>      Experiencia com Java 7, 8. 
                   <br>   Spring Boot.
                   <br>   Conhecimentos de Java Server Pages (JSP).
@@ -174,12 +175,12 @@
 
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingTwo">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-              Git
+            <button class="accordion-button collapsed bg-info p-2 text-dark bg-opacity-25" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+             <h5 class="accordion-header">Git</h5> 
             </button>
           </h2>
           <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
+            <div class="accordion-body bg-info p-2 text-dark bg-opacity-25">
                 <p class="lead"> Conhecimento amplo na ferramenta de versionamento git. 
                     <br>  Experiencias com repositorios GitHub, BitBucket.
                     <br>  GitBash, Sourctree, GitKraken.
@@ -190,11 +191,11 @@
 
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingThree">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              Bootstap
+            <button class="accordion-button collapsed bg-info p-2 text-dark bg-opacity-25" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              <h5 class="accordion-header">Bootstrap</h5>
             </button>
           </h2>
-          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+          <div id="collapseThree" class="accordion-collapse collapse collapsed bg-info p-2 text-dark bg-opacity-25" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
             <div class="accordion-body">
                 <p class="lead">
                     Experiencia utilizando bootstrap profissionalmente, e em projetos pessoais como este.
@@ -205,12 +206,12 @@
 
         <div class="accordion-item">
           <h2 class="accordion-header" id="headingFour">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-              Engenharia De Software
+            <button class="accordion-button collapsed bg-info p-2 text-dark bg-opacity-25" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              <h5 class="accordion-header">Engenharia de Software</h5>
             </button>
           </h2>
           <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
-            <div class="accordion-body">
+            <div class="accordion-body collapsed bg-info p-2 text-dark bg-opacity-25">
                 <p class="lead">
                    Levantamento e validação de requisitos.
                    <br>  Diagramas, entidade, relacionamento, caso de uso.
@@ -223,12 +224,12 @@
     
       <div class="accordion-item">
         <h2 class="accordion-header" id="headingFive">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-            Banco de dados
+          <button class="accordion-button collapsed bg-info p-2 text-dark bg-opacity-25" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+            <h5>Banco de dados</h5>
           </button>
         </h2> 
         <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
-          <div class="accordion-body">
+          <div class="accordion-body collapsed bg-info p-2 text-dark bg-opacity-25">
               <p class="lead">
                     Banco de dados relacionais, e não relacionais.
                 <br>  BD Relacionais: Mysql, Postgres.
@@ -240,7 +241,8 @@
     </div>
   </div>
 </div>
-
+</div>
+<div class="bg-info p-2 text-dark bg-opacity-25">
     <div id="sectionExperienciaProfissional">
     <h1> Experiencias Profissionais</h1>
     </div>
@@ -250,18 +252,18 @@
             Experiencias
         </button>
       </p>
-      <div class="cardExperiencias">
+      <div class="cardExperiencias ">
       <div style="min-height: 120px;">
         <div class="collapse collapse-horizontal" id="collapseWidthExample">
-          <div class="card card-body logoEdsys" style="width: 300px;">      
+          <div class="card card-body logoEdsys bg-info p-2 text-dark bg-opacity-25" style="width: 300px;">      
             <div class="card">
                 <img src="img/EdilSystem.png" class="card-img-top" alt="Edil System." style="width: 250px; height: 200px; text-align: center;">
-                <div class="card-body">
+                <div class="card-body bg-info p-2 text-dark bg-opacity-25">
                   <h5 class="card-title">Analista e suporte de sistemas.</h5>
                     <p class="card-text ">
                       Suporte ao cliente remoto e presencial, análise de documentos fiscais (SPED, Sintegra  Alterações em banco de dados SQL.
                    </p> 
-                  <a href="https://edilsystem.com.br/site/" class="btn btn-primary">Edil System</a>
+                  <a href="https://edilsystem.com.br/site/" target="_blank" class="btn "> <h4  class="accordion-header">Edil System</h4></a>
                 </div>
             </div>
           </div>
@@ -270,22 +272,22 @@
   
       <div style="min-height: 120px;">
         <div class="collapse collapse-vertical" id="collapseWidthExample">
-          <div class="card card-body" style="width: 300px;">    
+          <div class="card card-body bg-info p-2 text-dark bg-opacity-25" style="width: 300px;">    
             <div class="card">
-                <img src="img/acertSistemas.png" class="card-img-top" alt="Edil System." style="width: 250px; height: 200px; text-align: center;">
-                <div class="card-body">
+                <img src="img/acertSistemas.png" class="card-img-top" alt="Acert Sistemas." style="width: 250px; height: 200px; text-align: center;">
+                <div class="card-body bg-info p-2 text-dark bg-opacity-25">
                   <h5 class="card-title">Desenvolver Java Web FullStack.</h5>
                    <p class="card-text">Desenvolvimento e manutenção de novas rotinas em sistema ER Java WEB com enfase no ramo de certificação digital.</p>
-                  <a href="http://www.acertsistemas.com.br/" class="btn btn-primary">Acert Sistemas</a>
+                  <a href="http://www.acertsistemas.com.br/" target="_blank" class="btn "> <h4 class="accordion-header">Acert Sistemas</h4></a>
                 </div>
               </div>
           </div>
         </div>
       </div>
-
-      
     </div>    
   </div>    
+
+  </div>
 </body>
 </html>
 
