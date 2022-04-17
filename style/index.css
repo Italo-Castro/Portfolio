@@ -14,7 +14,12 @@
 #baseConhecimento{
     text-align: center;
     margin-top: 25px;
+    margin-bottom: 15px;
 } 
+
+#baseConhecimento button:hover{
+  text-decoration: underline;
+}
 
 #sectionExperienciaProfissional {
     text-align: center;
@@ -71,5 +76,4 @@
     margin-bottom: 10px; 
     opacity: 1.0;
     text-shadow: 15px black;
-    
 }
