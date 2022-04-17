@@ -1,6 +1,3 @@
-.body {
-    background-color: red;
-}
 .textoPrincipal, .tituloPrincipal{
     text-align: center;
     margin-top: 15px;
@@ -9,6 +6,7 @@
 
 .imagemPrincipal {
     text-align: center;
+   
 }
 
 #baseConhecimento{
@@ -57,7 +55,6 @@
 .logoEdsys :hover{
     text-align: center;
 }
-
 
 .tituloSoftSkil {
     margin-left: 135px;

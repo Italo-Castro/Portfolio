@@ -1,7 +1,7 @@
 function enviarMensagemWtsApp() {
     x = document.getElementById("textoMensagemWtsApp");
     mensagem = x.value;
-    window.open("https://api.whatsapp.com/send?phone=3798089731&text="+mensagem); 
+    window.open("https://api.whatsapp.com/send?phone=+55 37 9808-9731&text="+mensagem); 
    
 }
 
